@@ -2,7 +2,7 @@
 import getSingleUser from "../../../../lib/getSingleUser";
 import getPosts from "../../../../lib/getPosts";
 import { Suspense } from "react";
-import UserPost from "@/app/components/userPost";
+import UserPost from "@/app/components/user-post";
 import type { Metadata } from "next";
 import {notFound} from "next/navigation";
 
